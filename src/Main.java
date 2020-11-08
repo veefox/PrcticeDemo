@@ -1,4 +1,5 @@
 import array.FindAllNumbersDisappearedAnAnArray;
+import array.HammingDistance;
 import array.MoveZeroes;
 
 public class Main {
@@ -70,9 +71,13 @@ public class Main {
 //        MoveZeroes.start();
 
         //找到所有数组中消失的数字
-        FindAllNumbersDisappearedAnAnArray.start();
+//        FindAllNumbersDisappearedAnAnArray.start();
 
+        //汉明距离
+        System.out.println(HammingDistance.hammingDistance(1,4));
 
     }
+
+
 
 }
