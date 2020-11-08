@@ -1,3 +1,4 @@
+import array.FindAllNumbersDisappearedAnAnArray;
 import array.MoveZeroes;
 
 public class Main {
@@ -66,8 +67,10 @@ public class Main {
 //        PalindromeLinkedList.start();
 
         //移动零
-        MoveZeroes.start();
+//        MoveZeroes.start();
 
+        //找到所有数组中消失的数字
+        FindAllNumbersDisappearedAnAnArray.start();
 
 
     }
