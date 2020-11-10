@@ -1,4 +1,4 @@
-package listnode;
+package simple.listnode;
 
 /**
  * Created by yaoweiye on 2020年11月3日, 0003

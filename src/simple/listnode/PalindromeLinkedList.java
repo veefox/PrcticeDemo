@@ -1,4 +1,4 @@
-package listnode;
+package simple.listnode;
 
 import java.util.ArrayList;
 import java.util.List;

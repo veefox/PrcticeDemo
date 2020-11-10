@@ -1,4 +1,4 @@
-package array;
+package simple.array;
 
 /**
  * 删除排序数组中的重复项

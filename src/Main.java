@@ -1,11 +1,23 @@
-import array.FindAllNumbersDisappearedAnAnArray;
-import array.HammingDistance;
-import array.MoveZeroes;
+import middle.string.LongestSubstringWithoutRepeatingCharacters;
 
 public class Main {
 
     public static void main(String[] args) {
+        simple();
+        middle();
+    }
 
+    private static void middle() {
+        //两数相加
+//        AddTwoNumbers.addTwoNumbers(null, null);
+
+        //无重复字符的最长子串
+        LongestSubstringWithoutRepeatingCharacters.start();
+
+
+    }
+
+    private static void simple() {
         //合并2个有序链表
 //        TestManager.mergeTwoListNode();
 
@@ -74,10 +86,6 @@ public class Main {
 //        FindAllNumbersDisappearedAnAnArray.start();
 
         //汉明距离
-        System.out.println(HammingDistance.hammingDistance(1,4));
-
+//        System.out.println(HammingDistance.hammingDistance(1,4));
     }
-
-
-
 }

@@ -1,4 +1,4 @@
-package array;
+package simple.array;
 
 /**
  * Created by yaoweiye on 2020年10月29日, 0029

@@ -1,7 +1,7 @@
-package Tree;
+package simple.Tree;
 
 /**
- * Created by yaoweiye on 2020年11月5日, 0005
+ * Created by veefox on 2020年11月5日, 0005
  *
  */
 public class TreeNode {

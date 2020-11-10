@@ -1,4 +1,4 @@
-package listnode;
+package simple.listnode;
 
 import java.util.HashSet;
 import java.util.Set;

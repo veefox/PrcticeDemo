@@ -1,4 +1,4 @@
-package listnode;
+package simple.listnode;
 
 /**
  * 合并两个有序链表

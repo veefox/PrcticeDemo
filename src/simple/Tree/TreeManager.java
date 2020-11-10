@@ -1,11 +1,11 @@
-package Tree;
+package simple.Tree;
 
 
 import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * Created by yaoweiye on 2020年10月28日, 0028
+ * Created by veefox on 2020年10月28日, 0028
  */
 public class TreeManager {
 

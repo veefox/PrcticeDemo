@@ -1,4 +1,4 @@
-package array;
+package simple.array;
 
 /**
  * 两个整数之间的汉明距离指的是这两个数字对应二进制位不同的位置的数目。
@@ -14,6 +14,7 @@ package array;
  */
 public class HammingDistance {
 
+    //异或  相同位是0 不同位是1
     public static int hammingDistance(int x, int y) {
         int c = x ^ y;
         String string = Integer.toBinaryString(c);

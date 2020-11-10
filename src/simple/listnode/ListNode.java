@@ -1,4 +1,4 @@
-package listnode;
+package simple.listnode;
 
 public class ListNode {
 
