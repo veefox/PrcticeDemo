@@ -1,7 +1,7 @@
 package simple.listnode;
 
 /**
- * Created by yaoweiye on 2020年11月3日, 0003
+ * Created by veefox on 2020年11月3日, 0003
  * 反转链表
  * 反转一个单链表。
  * 示例:

@@ -1,7 +1,7 @@
 package simple.listnode;
 
 /**
- * Created by yaoweiye on 2020年10月30日, 0030
+ * Created by veefox on 2020年10月30日, 0030
  * 相交链表
  */
 public class IntersectionOfTwoLinkedLists {

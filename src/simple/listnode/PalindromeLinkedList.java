@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by yaoweiye on 2020年11月5日, 0005
+ * Created by veefox on 2020年11月5日, 0005
  * 回文链表
  * 示例 1:
  * 输入: 1->2

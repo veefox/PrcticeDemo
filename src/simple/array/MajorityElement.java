@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by yaoweiye on 2020年11月2日, 0002
+ * Created by veefox on 2020年11月2日, 0002
  */
 public class MajorityElement {
 

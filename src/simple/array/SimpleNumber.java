@@ -1,7 +1,7 @@
 package simple.array;
 
 /**
- * Created by yaoweiye on 2020年10月29日, 0029
+ * Created by veefox on 2020年10月29日, 0029
  */
 public class SimpleNumber {
 

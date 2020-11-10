@@ -1,7 +1,7 @@
 package simple.array;
 
 /**
- * Created by yaoweiye on 2020年10月22日, 0022
+ * Created by veefox on 2020年10月22日, 0022
  */
 public class SearchIndex {
 
