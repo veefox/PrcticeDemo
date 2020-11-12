@@ -1,4 +1,4 @@
-import middle.string.LongestSubstringWithoutRepeatingCharacters;
+import middle.listnode.RemoveNodeFromEndOfList;
 
 public class Main {
 
@@ -12,8 +12,16 @@ public class Main {
 //        AddTwoNumbers.addTwoNumbers(null, null);
 
         //无重复字符的最长子串
-        LongestSubstringWithoutRepeatingCharacters.start();
+//        LongestSubstringWithoutRepeatingCharacters.start();
 
+        //最长回文子串
+//        LongestPalindromicSubstring.start();
+
+        //三数之和
+//        ThreeSum.start();
+
+        //删除链表的倒数第N个节点
+        RemoveNodeFromEndOfList.start();
 
     }
 
