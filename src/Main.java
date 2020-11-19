@@ -1,5 +1,3 @@
-import middle.listnode.RemoveNodeFromEndOfList;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -21,9 +19,70 @@ public class Main {
 //        ThreeSum.start();
 
         //删除链表的倒数第N个节点
-        RemoveNodeFromEndOfList.start();
+//        RemoveNodeFromEndOfList.start();
 
+        //括号生成
+//        List<String> list = GenerateParentheses.Solution2.generateParenthesis(4);
+//        for (String s:list) {
+//            System.out.print(s + ",");
+//        }
+
+        //下一个排列
+//        NextPermutation.start();
+
+        //冒泡排序
+//        BubbleSort.sort(new int[] {6, 5, 4, 3, 1, 2});
+
+        //快速排序
+//        int[] nn = new int[]{6, 1, 2, 7, 9, 3, 4, 5, 10, 8};
+//        QuickSort.quickSort(nn, 0, nn.length - 1);
+//        for (int e: nn) {
+//            System.out.print(e + ", ");
+//        }
+
+        //在排序数组中查找元素的第一个和最后一个位置
+//        int[] nn = new int[] {8};
+//        int[] mm = FindFirstAndLastPositionOfElementinSortedArray.Solution.searchRange(nn, 8);
+//        int[] ll = FindFirstAndLastPositionOfElementinSortedArray.searchRange(nn, 8);
+//        for (int a: mm) {
+//            System.out.print(a + ", ");
+//        }
+//        System.out.println();
+//        for (int a: ll) {
+//            System.out.print(a + ", ");
+//        }
+
+        //组合总和
+//        int[] nn = new int[] {2,3,5};
+//        int target = 8;
+//        List<List<Integer>> mm = CombinationSum.Solution.combinationSum(nn, target);
+//        for (List<Integer> data: mm) {
+//            for (Integer i:data) {
+//                System.out.print(i+ ",");
+//            }
+//            System.out.println();
+//        }
+
+        //全排列
+//        Permutations.start();
+
+        //跳跃游戏
+//        JumpGame.start();
+
+        //子集
+//        SubSets.start();
+        recursion(4267);
     }
+
+    public static void recursion(int value) {
+        int quotient;
+        quotient = value / 10;
+        if (quotient != 0) {
+            recursion(quotient);
+        }
+        System.out.print(value % 10 + ",");
+    }
+
 
     private static void simple() {
         //合并2个有序链表

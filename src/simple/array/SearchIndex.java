@@ -45,11 +45,12 @@ public class SearchIndex {
     }
 
     //查找不存在元素的区间
+    // [1,3,5,6,8,10,12,13], 4 输出2
     public static int search(int[] nums, int target) {
         int n = nums.length;
         int left = 0, right = n - 1;
         while (left < right) {
-            int mid = left + (right -left) / 2;  //mid=4;
+            int mid = left + (right -left) / 2;  //mid=
             if (nums[mid] < target) {
                 left = mid + 1;
             } else {

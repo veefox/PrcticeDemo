@@ -37,10 +37,10 @@ public class LongestSubstringWithoutRepeatingCharacters {
 //    无论是否更新 start，都会更新其 map 数据结构和结果 ans。
 //    时间复杂度：O(n)
     static class Solution {
-        public static int lengthOfLongestSubstring(String s) {
+        public static int lengthOfLongestSubstring(String s) {//abcdecoiuyt
             int n = s.length(), ans = 0;
             Map<Character, Integer> map = new HashMap<>();
-            for (int end = 0, start = 0; end < n; end++) {
+            for (int start = 0, end = 0; end < n; end++) {
                 char alpha = s.charAt(end);
                 if (map.containsKey(alpha)) {
                     start = Math.max(map.get(alpha), start);
