@@ -1,3 +1,5 @@
+import middle.array.ErWeiArraySearch;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -71,7 +73,14 @@ public class Main {
 
         //子集
 //        SubSets.start();
-        recursion(4267);
+//        recursion(4267);
+
+        //递归小实验  倒序打印字符串
+//        System.out.println(reverse1("abcdef"));
+//        reverse("abcdef");
+
+        //二维数组中的查找
+        ErWeiArraySearch.start();
     }
 
     public static void recursion(int value) {
@@ -81,6 +90,22 @@ public class Main {
             recursion(quotient);
         }
         System.out.print(value % 10 + ",");
+    }
+
+    public static void reverse(String inputString) {
+        if (inputString.length() > 0) {
+            // str = 'abcdef'
+            // str[0] = 'a'
+            // str.substr(1) = 'bcdef'
+            reverse(inputString.substring(1));
+            System.out.print(inputString.charAt(0));
+        }
+    }
+    public static String reverse1(String inputString) {
+        if (inputString.length() <= 1) {
+            return inputString;
+        }
+        return reverse1(inputString.substring(1)) + inputString.charAt(0);
     }
 
 
