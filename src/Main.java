@@ -1,3 +1,8 @@
+import simple.listnode.ListNode;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import middle.array.ErWeiArraySearch;
 
 public class Main {
@@ -73,6 +78,8 @@ public class Main {
 
         //子集
 //        SubSets.start();
+        recursion(4267);
+
 //        recursion(4267);
 
         //递归小实验  倒序打印字符串
@@ -92,6 +99,7 @@ public class Main {
         System.out.print(value % 10 + ",");
     }
 
+    public static int[] reversePrint(ListNode head) {
     public static void reverse(String inputString) {
         if (inputString.length() > 0) {
             // str = 'abcdef'
@@ -107,6 +115,46 @@ public class Main {
         }
         return reverse1(inputString.substring(1)) + inputString.charAt(0);
     }
+
+        List<Integer> data = new ArrayList<>();
+        printListNode(head, data);
+        int[] nn = new int[data.size()];
+        for (int i = 0; i < data.size(); i++) {
+            nn[i] = data.get(i);
+        }
+        return nn;
+    }
+
+    private static void printListNode(ListNode head, List<Integer> data) {
+        if (head == null)
+            return;
+        printListNode(head.next, data);
+        data.add(head.val);
+    }
+
+    // 1 2 3 4 5 6 7 8
+    public int[] exchange(int[] nums) {
+        int n = nums.length;
+        int i = 0;
+        int j = n -1;
+        while (i < j) {
+            if (nums[i] % 2 == 0) {
+                if (nums[j] % 2 != 0) {
+                    int temp = nums[i];
+                    nums[i] = nums[j];
+                    nums[j] = temp;
+                } else {
+                    j--;
+                }
+            } else {
+                i++;
+            }
+        }
+
+        return nums;
+
+    }
+
 
 
     private static void simple() {
